@@ -1,0 +1,38 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  background-color: grey;
+}
+main {
+  background: white;
+}
+
+.main_brand {
+  font-size: 35px;
+  color: gold;
+  background-color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 40px;
+  background: khaki;
+}
+
+.for_gender {
+  background: lavenderblush;
+}
+.for_product {
+  background-color: lightblue;
+}
+footer {
+  background: wheat;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
+}

@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 153, 32);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: blanchedalmond;
+    width: 100%;
+    font-size: 36px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ronaldo {
+    max-width: 60%;
+    min-height: 600px;
+    background-color: darkslateblue;
+    float: left;
+}
+.messi {
+    max-width: 40%;
+    min-height: 600px;
+    background-color: darkslategray;
+    float: left;
+}
+.best_content {
+    padding: 20px 20px;
+}
+
+.best_content > img {
+    width: 40%;
+
+    float: left;
+}
+
+.best_content > h2 {
+    float: left;
+    width: 60%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23px;
+    text-align: center;
+}
+.best_content > p {
+    float: left;
+    width: 60%;
+    font-size: 20px;
+    text-align: left;
+
+    padding: 20px;
+}
+
+.clear_float {
+    clear: both;
+}
+
+.clear_float > p {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lewa {
+    width: 33.3%;
+    min-height: 600px;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+.grizman {
+    width: 33.3%;
+    min-height: 600px;
+    background-color: rgb(197, 168, 124);
+    float: left;
+}
+.kloze {
+    width: 33.3%;
+    min-height: 600px;
+    background-color: rgb(155, 128, 89);
+    float: left;
+}
+.middle_content {
+    padding: 20px 20px;
+}
+
+.middle_content > img {
+    width: 50%;
+    float: left;
+}
+
+.middle_content > h2 {
+    float: left;
+    width: 50%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.middle_content > p {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+footer > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}

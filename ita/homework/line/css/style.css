@@ -1,0 +1,24 @@
+body {
+    padding: 200px;
+    background-color: burlywood;
+}
+
+.horizont {
+    width: 1000px;
+    height: 630px;
+    margin: 0 auto;
+
+    background-image: url(../img/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.vertical {
+    width: 1000px;
+    height: 630px;
+    margin: 100px auto;
+
+    background-image: url(../img/11.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,18 @@
+
+body {
+   display: block;
+   justify-content: baseline;
+   flex-direction: column;
+   background-color: burlywood;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+a {
+    color: black;
+}
+
+li {
+    margin: 20px;
+}

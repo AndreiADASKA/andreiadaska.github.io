@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #f7f7f7;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.column {
+  border: 1px solid #666;
+  background: #343436;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+}
+
+.one {
+  flex-basis: 100%;
+}
+.half {
+  flex-basis: 50%;
+}
+
+.one-third {
+  flex-basis: 33.33%;
+  flex-grow: 3.33;
+}
+
+.one-fourth {
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.two-thirds {
+  flex-basis: 66.66%;
+  background-color: rgb(111, 0, 255);
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+/* почему из-за паддинга лево права не сходится соотношение по процентам у строк? */
+
+@media only screen and (max-width: 801px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .one,
+  .half,
+  .one-fourth,
+  .one-third,
+  .two-thirds {
+    flex-basis: 100%;
+  }
+}
