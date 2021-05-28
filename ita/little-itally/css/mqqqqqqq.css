@@ -1,243 +1,256 @@
 @media screen and (min-width: 1201px) {
-   .container {
-      width: 100%;
-      max-width: 1200px;
-   }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
 }
 
 @media screen and (max-width: 1200px) /* and (min-width: 1025px) */ {
-   .container {
-      max-width: 1140px;
-   }
-   .video__box {
-      display: none;
-   }
-   header {
-      background-image: url(../img/headerbg.jpg);
-      background-color: #063;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: auto;
-   }
-   header:after {
-      content: "";
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.425);
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: 1;
-   }
+    .container {
+        max-width: 1140px;
+    }
+    .video__box {
+        display: none;
+    }
+    header {
+        width: 100%;
+        height: auto;
 
-   .header .container {
-      height: auto;
-   }
+        background-color: #063;
+        background-image: url(../img/headerbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    header:after {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
 
-   .title {
-      padding: 30px 0;
-   }
-   .title-block {
-      margin-bottom: 60px;
-   }
-   .section-why-italy {
-      padding: 50px 0;
-   }
-   .why-italy__row {
-      margin-bottom: 70px;
-   }
-   .why-italy__text {
-      min-height: 260px;
-   }
+        width: 100%;
+        height: 100%;
 
-   .section-start-travel {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
-   .start-travel {
-      padding-top: 80px;
-      padding-bottom: 100px;
-   }
+        content: '';
 
-   .travel-grid > a {
-      height: 150px;
-   }
-   .travel-grid {
-      gap: 4px;
-   }
+        background-color: rgba(0, 0, 0, .425);
+    }
 
-   .section-top-city {
-      padding-top: 80px;
-      padding-bottom: 50px;
-   }
-   .card-town {
-      flex: 0 0 33.333%;
-   }
+    .header .container {
+        height: auto;
+    }
 
-   .section-advice {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
+    .title {
+        padding: 30px 0;
+    }
+    .title-block {
+        margin-bottom: 60px;
+    }
+    .section-why-italy {
+        padding: 50px 0;
+    }
+    .why-italy__row {
+        margin-bottom: 70px;
+    }
+    .why-italy__text {
+        min-height: 260px;
+    }
 
-   .toplan {
-      padding: 0px 10px 10px 10px;
-   }
+    .section-start-travel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .start-travel {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .travel-grid > a {
+        height: 150px;
+    }
+    .travel-grid {
+        gap: 4px;
+    }
+
+    .section-top-city {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .card-town {
+        flex: 0 0 33.333%;
+    }
+
+    .section-advice {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .toplan {
+        padding: 0 10px 10px 10px;
+    }
 }
 @media screen and (max-width: 1024px) /* and (min-width: 769px) */ {
-   .container {
-      max-width: 780px;
-   }
+    .container {
+        max-width: 780px;
+    }
 
-   .title {
-      padding: 20px 0;
-   }
-   .title-block {
-      margin-bottom: 45px;
-   }
-   .section-why-italy {
-      padding-top: 35px;
-   }
-   .why-italy__row {
-      margin-bottom: 50px;
-      flex-wrap: wrap-reverse;
-   }
-   .why-italy__row-item {
-      flex: 0 1 75%;
+    .title {
+        padding: 20px 0;
+    }
+    .title-block {
+        margin-bottom: 45px;
+    }
+    .section-why-italy {
+        padding-top: 35px;
+    }
+    .why-italy__row {
+        margin-bottom: 50px;
 
-      margin-bottom: 16px;
-   }
+        flex-wrap: wrap-reverse;
+    }
+    .why-italy__row-item {
+        margin-bottom: 16px;
 
-   .why-italy__text {
-      min-height: 240px;
-   }
+        flex: 0 1 75%;
+    }
 
-   .why-italy__box-img {
-      max-height: 420px;
-   }
+    .why-italy__text {
+        min-height: 240px;
+    }
 
-   .section-start-travel {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
-   .start-travel {
-      padding-top: 80px;
-      padding-bottom: 100px;
-   }
-   .travel-grid span {
-      font-size: 26px;
+    .why-italy__box-img {
+        max-height: 420px;
+    }
 
-      letter-spacing: 3px;
+    .section-start-travel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .start-travel {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .travel-grid span {
+        font-size: 26px;
 
-      color: #fff;
-   }
+        letter-spacing: 3px;
 
-   .travel-grid > a {
-      height: 150px;
-   }
-   .travel-grid {
-      gap: 4px;
-   }
+        color: #fff;
+    }
 
-   .section-top-city {
-      padding-top: 80px;
-      padding-bottom: 50px;
-   }
-   .card-town {
-      flex: 0 0 50%;
-   }
+    .travel-grid > a {
+        height: 150px;
+    }
+    .travel-grid {
+        gap: 4px;
+    }
 
-   .section-advice {
-      padding-top: 40px;
-      padding-bottom: 40px;
-   }
+    .section-top-city {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .card-town {
+        flex: 0 0 50%;
+    }
 
-   .toplan {
-      padding: 0px 10px 10px 10px;
-   }
-   .toplan__list > li > p {
-      padding-top: 16px;
+    .section-advice {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-      line-height: 1.2;
-   }
-   .footer__row {
-      display: flex;
-      flex-wrap: wrap;
+    .toplan {
+        padding: 0 10px 10px 10px;
+    }
+    .toplan__list > li > p {
+        line-height: 1.2;
 
-      justify-content: center;
-   }
-   .footer__column {
-      flex: 0 1 100%;
-      display: flex;
+        padding-top: 16px;
+    }
+    .footer__row {
+        display: flex;
 
-      align-items: flex-start;
-      justify-content: space-around;
-      margin-bottom: 15px;
-   }
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__column {
+        display: flex;
+
+        margin-bottom: 15px;
+
+        flex: 0 1 100%;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 768px) /* and (min-width: 481px) */ {
-   .container {
-      max-width: 680px;
-   }
-   .nav-header {
-      display: none;
-   }
-   .header {
-      padding-bottom: 30px;
-   }
-   .caption__title {
-      font-size: 70px;
-   }
-   .caption {
-      height: 100%;
+    .container {
+        max-width: 680px;
+    }
+    .nav-header {
+        display: none;
+    }
+    .header {
+        padding-bottom: 30px;
+    }
+    .caption__title {
+        font-size: 70px;
+    }
+    .caption {
+        flex-direction: column;
 
-      flex-direction: column;
-      justify-content: space-between;
-   }
+        height: 100%;
 
-   .caption__content {
-      margin-bottom: 30px;
-   }
-   .caption__title {
-      margin-bottom: 20px;
-   }
+        justify-content: space-between;
+    }
 
-   .header__burger {
-      width: 30px;
-      height: 20px;
-      margin: 20px;
+    .caption__content {
+        margin-bottom: 30px;
+    }
+    .caption__title {
+        margin-bottom: 20px;
+    }
 
-      display: block;
-      position: relative;
-   }
-   .header__burger span {
-      background-color: #fff;
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      left: 0;
-      top: 8px;
-      z-index: 7777;
-   }
-   .header__burger::before,
-   .header__burger::after {
-      content: "";
-      background-color: #fff;
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      left: 0;
-      z-index: 7777;
-   }
-   .header__burger::before {
-      top: 0;
-   }
-   .header__burger::after {
-      bottom: 0;
-   }
-   /* .nav-header {
+    .header__burger {
+        position: relative;
+
+        display: block;
+
+        width: 30px;
+        height: 20px;
+        margin: 20px;
+    }
+    .header__burger span {
+        position: absolute;
+        z-index: 7777;
+        top: 8px;
+        left: 0;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: #fff;
+    }
+    .header__burger::before,
+    .header__burger::after {
+        position: absolute;
+        z-index: 7777;
+        left: 0;
+
+        width: 100%;
+        height: 2px;
+
+        content: '';
+
+        background-color: #fff;
+    }
+    .header__burger::before {
+        top: 0;
+    }
+    .header__burger::after {
+        bottom: 0;
+    }
+    /* .nav-header {
       flex-direction: column;
       justify-content: flex-start;
       position: absolute;
@@ -265,247 +278,254 @@
       margin-top: 20px;
    } */
 
-   .title {
-      padding: 15px 0;
-   }
-   .title-block {
-      margin-bottom: 30px;
-      max-width: 100%;
-   }
-   .text {
-      font-size: 16px;
-      line-height: 24px;
-      text-align: start;
-   }
-   .section-why-italy {
-      padding-top: 25px;
-   }
-   .why-italy__row {
-      margin-bottom: 25px;
-      flex-wrap: wrap-reverse;
-   }
-   .why-italy__row-item {
-      flex: 0 1 75%;
+    .title {
+        padding: 15px 0;
+    }
+    .title-block {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 24px;
 
-      margin-bottom: 16px;
-   }
+        text-align: start;
+    }
+    .section-why-italy {
+        padding-top: 25px;
+    }
+    .why-italy__row {
+        margin-bottom: 25px;
 
-   .why-italy__box-img {
-      max-height: 420px;
-   }
+        flex-wrap: wrap-reverse;
+    }
+    .why-italy__row-item {
+        margin-bottom: 16px;
 
-   .section-start-travel {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
-   .start-travel {
-      padding-top: 80px;
-      padding-bottom: 100px;
-      width: 100%;
-      height: 100%;
-   }
+        flex: 0 1 75%;
+    }
 
-   .travel-grid > a {
-      height: 130px;
-      background-attachment: none;
-   }
-   .travel-grid {
-      gap: 3px;
-   }
-   .travel-grid__bg1,
-   .travel-grid__bg2 {
-      background: url(../img/pisa2.jpg);
-      background-size: contain;
-      background-attachment: local;
-   }
-   .travel-grid__document {
-      grid-column: 1 / 13;
-   }
+    .why-italy__box-img {
+        max-height: 420px;
+    }
 
-   .travel-grid__ticket {
-      grid-column: 1/13;
-   }
+    .section-start-travel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .start-travel {
+        width: 100%;
+        height: 100%;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
 
-   .travel-grid__route {
-      grid-column: 1/13;
-   }
+    .travel-grid > a {
+        height: 130px;
 
-   .travel-grid__rent-car {
-      grid-column: 1/13;
-   }
+        background-attachment: none;
+    }
+    .travel-grid {
+        gap: 3px;
+    }
+    .travel-grid__bg1,
+    .travel-grid__bg2 {
+        background: url(../img/pisa2.jpg);
+        background-attachment: local;
+        background-size: contain;
+    }
+    .travel-grid__document {
+        grid-column: 1 / 13;
+    }
 
-   .travel-grid__apartments {
-      grid-column: 1/13;
-   }
+    .travel-grid__ticket {
+        grid-column: 1/13;
+    }
 
-   .travel-grid__food {
-      grid-column: 1/13;
-   }
-   .travel-grid__entertainment {
-      grid-column: 1/13;
-   }
+    .travel-grid__route {
+        grid-column: 1/13;
+    }
 
-   .travel-grid__friends {
-      grid-column: 1/13;
-   }
+    .travel-grid__rent-car {
+        grid-column: 1/13;
+    }
 
-   .travel-grid__pizza {
-      grid-column: 1/13;
-   }
+    .travel-grid__apartments {
+        grid-column: 1/13;
+    }
 
-   .travel-grid__advice {
-      grid-column: 1/13;
-   }
+    .travel-grid__food {
+        grid-column: 1/13;
+    }
+    .travel-grid__entertainment {
+        grid-column: 1/13;
+    }
 
-   .travel-grid__more {
-      grid-column: 1/13;
-   }
+    .travel-grid__friends {
+        grid-column: 1/13;
+    }
 
-   .section-top-city {
-      padding-top: 80px;
-      padding-bottom: 50px;
-   }
-   .card-town {
-      flex: 0 0 58.33%;
-   }
+    .travel-grid__pizza {
+        grid-column: 1/13;
+    }
 
-   .section-advice {
-      padding-top: 30px;
-      padding-bottom: 30px;
-   }
-   .advice-cards {
-      justify-content: center;
-   }
-   .advice-card {
-      flex: 0 1 58.33%;
-   }
-   .toplan-trip {
-      background-attachment: scroll;
-   }
+    .travel-grid__advice {
+        grid-column: 1/13;
+    }
 
-   .toplan {
-      padding: 0px 10px 10px 10px;
-   }
-   .toplan__title {
-      padding: 12px;
-   }
-   .toplan__list > li > p {
-      padding-top: 12px;
+    .travel-grid__more {
+        grid-column: 1/13;
+    }
 
-      line-height: 18px;
-   }
-   .footer-nav {
-      justify-content: center;
-   }
-   .footer-nav__row {
-      flex: 0 0 75%;
-      justify-content: space-between;
-   }
-   .footer-nav__column {
-      flex: 0 0 40%;
-   }
-   .footer__row {
-      flex-wrap: wrap;
-      justify-content: center;
-   }
-   .copyright {
-      margin-top: 0;
-   }
+    .section-top-city {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .card-town {
+        flex: 0 0 58.33%;
+    }
+
+    .section-advice {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .advice-cards {
+        justify-content: center;
+    }
+    .advice-card {
+        flex: 0 1 58.33%;
+    }
+    .toplan-trip {
+        background-attachment: scroll;
+    }
+
+    .toplan {
+        padding: 0 10px 10px 10px;
+    }
+    .toplan__title {
+        padding: 12px;
+    }
+    .toplan__list > li > p {
+        line-height: 18px;
+
+        padding-top: 12px;
+    }
+    .footer-nav {
+        justify-content: center;
+    }
+    .footer-nav__row {
+        flex: 0 0 75%;
+        justify-content: space-between;
+    }
+    .footer-nav__column {
+        flex: 0 0 40%;
+    }
+    .footer__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 480px) /* and (min-width: 320px) */ {
-   .container {
-      width: 100%;
-      max-width: 430px;
+    .container {
+        width: 100%;
+        max-width: 430px;
+        padding: 5px;
+    }
 
-      padding: 5px;
-   }
+    .title {
+        font-size: 24px;
 
-   .title {
-      padding: 13px 0;
-      font-size: 24px;
-   }
-   .title-block {
-      max-width: 100%;
-   }
-   .inner-box-shodow {
-      padding: 10px;
-   }
-   .btn {
-      max-width: 250px;
-   }
+        padding: 13px 0;
+    }
+    .title-block {
+        max-width: 100%;
+    }
+    .inner-box-shodow {
+        padding: 10px;
+    }
+    .btn {
+        max-width: 250px;
+    }
 
-   .title-block {
-      margin-bottom: 20px;
-      max-width: 100%;
-   }
-   .text {
-      line-height: 22px;
-   }
-   .section-why-italy {
-      padding-top: 25px;
-   }
-   .why-italy__row {
-      margin-bottom: 25px;
-      flex-wrap: wrap-reverse;
-   }
-   .why-italy__row-item {
-      flex: 0 1 100%;
+    .title-block {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .text {
+        line-height: 22px;
+    }
+    .section-why-italy {
+        padding-top: 25px;
+    }
+    .why-italy__row {
+        margin-bottom: 25px;
 
-      margin-bottom: 16px;
-   }
+        flex-wrap: wrap-reverse;
+    }
+    .why-italy__row-item {
+        margin-bottom: 16px;
 
-   .why-italy__box-img {
-      max-height: 420px;
-   }
+        flex: 0 1 100%;
+    }
 
-   .section-start-travel {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
-   .start-travel {
-      padding-top: 30px;
-      padding-bottom: 40px;
-   }
+    .why-italy__box-img {
+        max-height: 420px;
+    }
 
-   .travel-grid > a {
-      height: 115px;
-   }
+    .section-start-travel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .start-travel {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
 
-   .section-top-city {
-      padding-top: 80px;
-      padding-bottom: 50px;
-   }
-   .card-town {
-      flex: 0 0 91.66%;
-   }
+    .travel-grid > a {
+        height: 115px;
+    }
 
-   .section-advice {
-      padding-top: 30px;
-      padding-bottom: 30px;
-   }
-   .advice-cards {
-      justify-content: center;
-   }
-   .advice-card {
-      flex: 0 1 91.66%;
-   }
+    .section-top-city {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .card-town {
+        flex: 0 0 91.66%;
+    }
 
-   .toplan {
-      padding: 0px 10px 10px 10px;
-   }
-   .toplan__title {
-      padding: 8px;
-   }
-   .toplan__list > li > p {
-      padding-top: 8px;
-      font-size: 14px;
-      line-height: 14px;
-      text-align: start;
-   }
+    .section-advice {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .advice-cards {
+        justify-content: center;
+    }
+    .advice-card {
+        flex: 0 1 91.66%;
+    }
 
-   .footer__column {
-      flex-direction: column;
-      justify-content: flex-start;
-   }
+    .toplan {
+        padding: 0 10px 10px 10px;
+    }
+    .toplan__title {
+        padding: 8px;
+    }
+    .toplan__list > li > p {
+        font-size: 14px;
+        line-height: 14px;
+
+        padding-top: 8px;
+
+        text-align: start;
+    }
+
+    .footer__column {
+        flex-direction: column;
+
+        justify-content: flex-start;
+    }
 }

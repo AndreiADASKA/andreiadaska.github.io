@@ -1,16 +1,19 @@
 .back > a {
-   display: flex;
-   align-items: center;
+    display: flex;
+
+    align-items: center;
 }
 .back > a > span {
-   font-size: 20px;
-   margin-left: 10px;
-   color: black;
+    font-size: 20px;
+
+    margin-left: 10px;
+
+    color: black;
 }
 
 .back > a:hover circle {
-   fill: cadetblue;
+    fill: cadetblue;
 }
 .back {
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
