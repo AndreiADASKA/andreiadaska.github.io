@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/res-style.css" />
+      <link rel="stylesheet" href="./css/form.css" />
+      <title>Поехали</title>
+   </head>
+   <body>
+      <section>
+         <div class="container">
+            <div>
+               <p class="tagline">Поехали</p>
+               <h1>Заявка</h1>
+               <p class="text">
+                  Здесь нужно зарегистрироваться и заполнить профиль, после чего
+                  оставить объявление и ждать отклика. Можно также найти друзей
+                  для прогулок по городу, если вы уже на месте и не хотите
+                  гулять в одиночестве.
+               </p>
+               <form action="#" method="POST">
+                  <fieldset>
+                     <label for="name"> Имя и фамилия</label>
+                     <input
+                        type="text"
+                        id="name"
+                        name="fname"
+                        placeholder="Пися Камушкин"
+                     />
+                  </fieldset>
+
+                  <fieldset>
+                     <label for="contact">Контакты</label>
+                     <input type="tel" placeholder="Телефон" />
+                     <input type="email" placeholder="@mail" />
+                  </fieldset>
+
+                  <fieldset>
+                     <label for="sex"> Пол</label>
+
+                     <div>
+                        <input type="radio" id="sex" name="sex" />
+                        <span>Мужской</span>
+                     </div>
+                     <div>
+                        <input type="radio" id="sex" name="sex" />
+                        <span>Женский</span>
+                     </div>
+                     <div>
+                        <input type="radio" id="sex" name="sex" select />
+                        <span>Инфинитив</span>
+                     </div>
+                  </fieldset>
+
+                  <fieldset>
+                     <label for="with-whom"> С кем путешествуешь:</label>
+                     <div><input type="checkbox" /> <span> Одна </span></div>
+                     <div><input type="checkbox" /> <span> Мама </span></div>
+                     <div><input type="checkbox" /> <span> Мама </span></div>
+                     <div><input type="checkbox" /> <span> Семья </span></div>
+                     <div><input type="checkbox" /> <span> Друг </span></div>
+                     <div><input type="checkbox" /> <span> Кот </span></div>
+                  </fieldset>
+
+                  <fieldset>
+                     <label class="want-country"
+                        >Какую страну хотите посетить:</label
+                     >
+                     <select name="want-country" id="want-country">
+                        <option value="italy">Италия</option>
+                        <option value="spain">Испания</option>
+                        <option value="turki">Турция</option>
+                        <option value="norge">Норвегия</option>
+                        <option value="france">Францияя</option>
+                        <option value="germany">Германия</option>
+                        <option value="island">Исландия</option>
+                        <option value="egiept" selected>Египет</option>
+                        <option value="grence">Греция</option>
+                        <option value="belgium">Бельгия</option>
+                     </select>
+                  </fieldset>
+
+                  <fieldset>
+                     <textarea
+                        name="this-county"
+                        id="this-county"
+                        cols="1"
+                        rows="5"
+                        placeholder="Пару слов о себе"
+                     ></textarea>
+                  </fieldset>
+
+                  <input type="submit" value="Отправить" />
+               </form>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>

@@ -1,0 +1,16 @@
+.back > a {
+   display: flex;
+   align-items: center;
+}
+.back > a > span {
+   font-size: 20px;
+   margin-left: 10px;
+   color: black;
+}
+
+.back > a:hover circle {
+   fill: cadetblue;
+}
+.back {
+   margin-bottom: 30px;
+}
