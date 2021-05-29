@@ -1,0 +1,451 @@
+@media screen and (min-width: 1201px) {
+   .container {
+      width: 100%;
+      max-width: 1200px;
+   }
+}
+
+@media screen and (max-width: 1200px) /* and (min-width: 1025px) */ {
+   .container {
+      max-width: 1140px;
+   }
+   .video__box {
+      display: none;
+   }
+   header {
+      width: 100%;
+      height: auto;
+
+      background-color: #063;
+      background-image: url(../img/headerbg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+   header:after {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+
+      content: "";
+
+      background-color: rgba(0, 0, 0, 0.425);
+   }
+
+   .header .container {
+      height: auto;
+   }
+
+   .title {
+      padding: 30px 0;
+   }
+   .title-block {
+      margin-bottom: 60px;
+   }
+   .section-why-italy {
+      padding: 50px 0;
+   }
+   .why-italy__row {
+      margin-bottom: 70px;
+   }
+   .why-italy__text {
+      min-height: 260px;
+   }
+
+   .section-start-travel {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .start-travel {
+      padding-top: 80px;
+      padding-bottom: 100px;
+   }
+
+   .travel-grid > a {
+      height: 150px;
+   }
+   .travel-grid {
+      gap: 4px;
+   }
+
+   .section-top-city {
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+   .card-town {
+      flex: 0 0 33.333%;
+   }
+
+   .section-advice {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+
+   .toplan {
+      padding: 0 10px 10px 10px;
+   }
+}
+@media screen and (max-width: 1024px) /* and (min-width: 769px) */ {
+   .container {
+      max-width: 780px;
+   }
+
+   .title {
+      padding: 20px 0;
+   }
+   .title-block {
+      margin-bottom: 45px;
+   }
+   .section-why-italy {
+      padding-top: 35px;
+   }
+   .why-italy__row {
+      margin-bottom: 50px;
+
+      flex-wrap: wrap-reverse;
+   }
+   .why-italy__row-item {
+      margin-bottom: 16px;
+
+      flex: 0 1 75%;
+   }
+
+   .why-italy__text {
+      min-height: 240px;
+   }
+
+   .why-italy__box-img {
+      max-height: 420px;
+   }
+
+   .travel-grid span {
+      font-size: 26px;
+
+      letter-spacing: 3px;
+
+      color: #fff;
+   }
+
+   .section-top-city {
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+   .card-town {
+      flex: 0 0 41.66%;
+   }
+
+   .section-advice {
+      padding-top: 40px;
+      padding-bottom: 40px;
+   }
+
+   .toplan {
+      padding: 0 10px 10px 10px;
+   }
+   .toplan__list > li > p {
+      line-height: 1.2;
+   }
+   .footer__row {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .footer__column {
+      margin-bottom: 15px;
+
+      flex: 0 1 100%;
+   }
+}
+
+@media screen and (max-width: 768px) /* and (min-width: 481px) */ {
+   .container {
+      max-width: 680px;
+   }
+   .nav-header {
+      display: none;
+   }
+   .header {
+      padding-bottom: 30px;
+   }
+   .caption__title {
+      font-size: 70px;
+   }
+   .caption {
+      flex-direction: column;
+
+      height: 100%;
+
+      justify-content: space-between;
+   }
+
+   .caption__content {
+      margin-bottom: 30px;
+   }
+   .caption__title {
+      margin-bottom: 20px;
+   }
+
+   .header__burger {
+      position: relative;
+
+      display: block;
+
+      width: 30px;
+      height: 20px;
+      margin: 20px;
+   }
+   .header__burger span {
+      position: absolute;
+      z-index: 10;
+      top: 9px;
+      left: 0;
+
+      width: 100%;
+      height: 2px;
+
+      background-color: #fff;
+   }
+   .header__burger::before,
+   .header__burger::after {
+      position: absolute;
+      z-index: 10;
+      left: 0;
+
+      width: 100%;
+      height: 2px;
+
+      content: "";
+
+      background-color: #fff;
+   }
+   .header__burger::before {
+      top: 0;
+   }
+   .header__burger::after {
+      bottom: 0;
+   }
+   /* .nav-header {
+      flex-direction: column;
+      justify-content: flex-start;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #063;
+      
+   }
+   .nav-header__item-sci {
+      display: none;
+   }
+   .nav-header__logo {
+      font-size: 28px;
+      margin-bottom: 10px;
+   }
+   .nav-header__list {
+      display: block;
+      mask-position: relative;
+      z-index: 5;
+   }
+   .nav-header__item {
+      margin-left: 0;
+      margin-top: 20px;
+   } */
+
+   .title {
+      padding: 15px 0;
+   }
+   .title-block {
+      max-width: 100%;
+      margin-bottom: 30px;
+   }
+   .text {
+      font-size: 16px;
+      line-height: 24px;
+
+      text-align: start;
+   }
+   .section-why-italy {
+      padding-top: 25px;
+   }
+   .why-italy__row {
+      margin-bottom: 25px;
+
+      flex-wrap: wrap-reverse;
+   }
+
+   .section-start-travel {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .start-travel {
+      width: 100%;
+      height: 100%;
+      padding-top: 80px;
+      padding-bottom: 100px;
+   }
+   .travel-grid span {
+      font-size: 28px;
+
+      letter-spacing: 1px;
+   }
+
+   .travel-grid > a {
+      height: 130px;
+
+      background-attachment: local;
+   }
+   .travel-grid {
+      gap: 3px;
+   }
+   .travel-grid__bg1,
+   .travel-grid__bg2 {
+      background: url(../img/Italy_Coastbg3.jpg);
+      background-position: center;
+      background-size: cover;
+   }
+   .travel-grid > a::after {
+      background: rgba(0, 0, 0, 0.32);
+   }
+   .travel-grid__document,
+   .travel-grid__ticket,
+   .travel-grid__route,
+   .travel-grid__rent-car,
+   .travel-grid__apartments,
+   .travel-grid__food,
+   .travel-grid__entertainment,
+   .travel-grid__friends,
+   .travel-grid__pizza,
+   .travel-grid__advice,
+   .travel-grid__more {
+      grid-column: 1 / 13;
+   }
+
+   .card-town {
+      flex: 0 0 58.33%;
+   }
+
+   .section-advice {
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+   .advice-cards {
+      justify-content: center;
+   }
+   .advice-card {
+      flex: 0 1 58.33%;
+   }
+   .toplan-trip {
+      background-attachment: scroll;
+   }
+
+   .toplan__title {
+      padding: 12px;
+   }
+   .toplan__list > li > p {
+      line-height: 18px;
+
+      padding-top: 12px;
+   }
+   .footer-nav {
+      justify-content: center;
+   }
+   .footer-nav__row {
+      flex: 0 0 75%;
+      justify-content: space-between;
+   }
+   .footer-nav__column {
+      flex: 0 0 40%;
+   }
+   .footer__row {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .copyright {
+      margin-top: 0;
+   }
+}
+
+@media (max-width: 480px) /* and (min-width: 320px) */ {
+   .container {
+      max-width: 430px;
+      padding: 5px;
+   }
+
+   .title {
+      font-size: 24px;
+
+      padding: 13px 0;
+   }
+   .title-block {
+      max-width: 100%;
+   }
+   .inner-box-shodow {
+      padding: 10px;
+   }
+   .btn {
+      max-width: 250px;
+   }
+
+   .title-block {
+      margin-bottom: 20px;
+   }
+   .text {
+      line-height: 22px;
+   }
+
+   .why-italy__row-item {
+      margin-bottom: 16px;
+
+      flex: 0 1 100%;
+   }
+
+   .why-italy__box-img {
+      max-height: 420px;
+   }
+
+   .start-travel {
+      padding-top: 30px;
+      padding-bottom: 40px;
+   }
+
+   .travel-grid > a {
+      height: 115px;
+   }
+
+   .section-top-city {
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+   .card-town {
+      flex: 0 0 91.66%;
+   }
+
+   .advice-card {
+      flex: 0 1 91.66%;
+   }
+
+   .toplan {
+      padding: 0 10px 10px 10px;
+   }
+   .toplan__title {
+      padding: 8px;
+   }
+   .toplan__list > li > p {
+      font-size: 14px;
+      line-height: 14px;
+
+      padding-top: 8px;
+
+      text-align: start;
+   }
+
+   .footer__column {
+      flex-direction: column;
+
+      justify-content: flex-start;
+   }
+}
