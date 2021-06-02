@@ -1,11 +1,5 @@
 @import url(../css/fonts.css);
 
-*,
-*::before,
-*::after {
-   box-sizing: border-box;
-}
-
 html,
 body {
    font-family: "Gilroy", Arial, Helvetica, sans-serif;
@@ -616,8 +610,6 @@ a {
 .advice-card:hover .advice-card__text,
 .advice-card:focus .advice-card__text,
 .advice-card:active .advice-card__text {
-   margin-top: -40px;
-
    transition-delay: 0.3s ease-in-out;
 
    opacity: 1;
