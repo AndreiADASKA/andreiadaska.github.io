@@ -148,7 +148,9 @@ a {
 
    color: #fff;
 }
-.nav-header__item :hover {
+.nav-header__item :hover,
+.nav-header__item :active,
+.nav-header__item :focus {
    opacity: 0.7;
 }
 
@@ -224,7 +226,9 @@ a {
    border-radius: 5px;
    background-color: #fff;
 }
-.btn:hover {
+.btn:hover,
+.btn:active,
+.btn:focus {
    letter-spacing: 2px;
 
    color: #fff;
@@ -377,7 +381,9 @@ a {
    justify-content: center;
 }
 
-.travel-grid > a:hover {
+.travel-grid > a:hover,
+.travel-grid > a:active,
+.travel-grid > a:focus {
    -webkit-transform: scale(0.98);
    -moz-transform: scale(0.98);
    -ms-transform: scale(0.98);
@@ -498,7 +504,9 @@ a {
 
    object-fit: cover;
 }
-.card-town__box-img:hover img {
+.card-town__box-img:hover img,
+.card-town__box-img:focus img,
+.card-town__box-img:active img {
    transform: scaleY(1.06);
 
    opacity: 1;
@@ -515,7 +523,9 @@ a {
    color: black;
 }
 
-.more-towns:hover {
+.more-towns:hover,
+.more-towns:active,
+.more-towns:focus {
    letter-spacing: 1px;
 
    opacity: 0.6;
@@ -597,11 +607,15 @@ a {
    margin-bottom: 20px;
 }
 
-.advice-card:hover {
+.advice-card:hover,
+.advice-card:active,
+.advice-card:focus {
    height: 500px;
 }
 
-.advice-card:hover .advice-card__text {
+.advice-card:hover .advice-card__text,
+.advice-card:focus .advice-card__text,
+.advice-card:active .advice-card__text {
    margin-top: -40px;
 
    transition-delay: 0.3s ease-in-out;
@@ -730,7 +744,9 @@ footer {
 
    color: #fff;
 }
-.footer__column li a:hover {
+.footer__column li a:hover,
+.footer__column li a:focus,
+.footer__column li a:active {
    text-decoration: underline;
 }
 
