@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-size: 20px;
+   font-family: "Courier New", Courier, monospace;
+   color: #fff;
+   background: linear-gradient(45deg, #13547a, #80d0c7);
+   text-align: center;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.tooltip {
+   padding: 15px;
+   border: 1px solid #d6e9c6;
+   border-radius: 4px;
+   color: #3c763d;
+   background-color: #dff0d8;
+}
+
+#template-store {
+   display: none;
+}
+
+.div {
+   padding-top: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.div > div {
+   flex: 0 1 30%;
+   display: flex;
+   flex-direction: column;
+
+   margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"] {
+   width: 50%;
+   height: 35px;
+
+   margin: 0 auto;
+   margin-bottom: 15px;
+   border: none;
+   border-bottom: 4px solid violet;
+   font-size: 23px;
+}
+
+.btn {
+   width: 200px;
+   height: 40px;
+   color: white;
+   font-size: 20px;
+   background-color: #339966;
+   border-radius: 8px;
+   letter-spacing: 4px;
+   margin-bottom: 40px;
+}
+.btn:hover {
+   background-color: #006600;
+}
+
+.good {
+   background-color: #006600;
+   font-size: 20px;
+   width: 70%;
+   padding: 8px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.nogood {
+   background-color: #660f00d7;
+   font-size: 20px;
+   width: 70%;
+   padding: 8px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.message {
+   list-style: none;
+   background-color: darkgoldenrod;
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 8px;
+   font-size: 22px;
+}
+
+.helptext {
+   list-style: none;
+   background-color: rgb(180, 168, 136);
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 8px;
+   font-size: 22px;
+}
+@media screen and (max-width: 700px) {
+   .div {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   input[type="text"],
+   input[type="number"] {
+      width: 65%;
+      height: 35px;
+   }
+}

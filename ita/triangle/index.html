@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="stylesheet" href="./media/css/main.css" />
+
+      <title>Task Manager</title>
+   </head>
+   <body>
+      <!-- main application block -->
+      <div id="app">
+         <noscript> Please, turn your JavaScript on. </noscript>
+         <h2>Существует ли треугольник?</h2>
+         <div class="div">
+            <div>
+               <label for="sa">Введите сторону А:</label>
+               <input type="text" class="side_a" name="sa" />
+               <label for="sb">Введите сторону B:</label>
+               <input type="text" class="side_b" name="sb " />
+               <label for="sc">Введите сторону C:</label>
+               <input type="text" class="side_c" name="sc" />
+            </div>
+
+            <div>
+               <label for="lower">Введите нижнюю границу:</label>
+               <input type="number" class="lower_num" name="lower" />
+               <label for="upper">Введите верхнюю границу:</label>
+               <input type="number" class="upper_num" name="upper " />
+            </div>
+         </div>
+         <button class="btn" type="button">Посчитать</button>
+      </div>
+      <!-- main script block -->
+      <script async type="module">
+         import { main } from "./src/main.js";
+      </script>
+   </body>
+</html>
