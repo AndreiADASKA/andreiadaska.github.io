@@ -1,0 +1,24 @@
+
+
+npm init -y
+
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+
+npx install-peerdeps --dev eslint-config-airbnb
+
+.prettierrc
+{
+   "singleQuote": true
+}
+
+
+npm install eslint --save-dev
+
+
+npx eslint --init
+
+///////////npm i express
+
+////////////////////////////////////
+
+

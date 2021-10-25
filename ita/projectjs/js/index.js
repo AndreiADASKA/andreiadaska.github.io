@@ -1,5 +1,7 @@
 import { getData } from "./modules/getData.js";
 
+const zzz
+
 const form = document.querySelector(".todo-control");
 const todoList = document.querySelector("#todo");
 const completedList = document.querySelector("#completed");
@@ -17,6 +19,8 @@ if (localStorage.getItem("localData")) {
    data = JSON.parse(localStorage.getItem("localData"));
 }
 
+
+
 clearLS.addEventListener("click", function () {
    localStorage.clear();
    location.reload();
@@ -25,11 +29,11 @@ clearLS.addEventListener("click", function () {
 const renderItemsForUpdate = function () {
    if (!data.todo.length && !data.completed.length) return;
 
-   for (let i = 0; i < data.todo.length; i++) {
+   for (let i = 0; i <= data.todo.length; i++) {
       renderItem(data.todo[i]);
    }
 
-   for (let i = 0; i < data.completed.length; i++) {
+   for (let i = 0; i <= data.completed.length; i++) {
       renderItem(data.completed[i], true);
    }
 };
@@ -41,7 +45,7 @@ const dataUpdateTolocaS = function () {
 
 const addItem = function (inputValue) {
    renderItem(inputValue);
-   headerInput.value = "";
+   headerInput.value <= "";
    data.todo.push(inputValue);
    // console.log(data.todo);
 
