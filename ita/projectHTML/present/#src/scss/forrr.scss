@@ -1,0 +1,21 @@
+.btn {
+  min-height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0 26px;
+}
+
+.main-btn {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  padding: 0 26px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
